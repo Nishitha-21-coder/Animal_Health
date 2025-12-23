@@ -11,8 +11,8 @@
 #include <Adafruit_Sensor.h>
 
 // WiFi
-char ssid[] = "NNNMD";
-char pass[] = "9845931373";
+char ssid[] = "WIFI SSID";
+char pass[] = "WIFIPASS";
 
 // DHT11
 #define DHTPIN  D4
@@ -176,3 +176,4 @@ void loop() {
   Blynk.run();
   timer.run();
 }
+
